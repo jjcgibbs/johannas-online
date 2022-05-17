@@ -16,15 +16,6 @@ const sans = document.getElementById("index-1");
 const trisha = document.getElementById("trisha-1");
 
 
-// function aboutFunction() {
-//   var x = document.getElementById("about");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//   }
-// }
-
 function aboutFunction() {
   if (aboutMe.style.display === "none") {
     aboutMe.style.display = "block";
