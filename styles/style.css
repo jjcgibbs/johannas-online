@@ -46,11 +46,15 @@ body {
   }
 }
 
-#about {
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#about-me {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  width: 30%;
+  width: 40%;
   padding: 10px;
   background-color: red;
   position: fixed;
@@ -59,8 +63,10 @@ body {
 }
 
 @media (max-width: 890px) {
-  #about {
-    width: 80%;
+  #about-me {
+    width: 90%;
+    right: 0px;
+    left: 10px;
   }
 }
 
@@ -166,7 +172,6 @@ iframe {
 
 @media (max-width: 890px) {
   iframe {
-    height: !important;
     padding-top: 10px;
   }
 }
@@ -196,6 +201,7 @@ p {
   top: 20px;
 }
 
+#about-me,
 #2008-1,
 #cws-1,
 #cmyk-1,

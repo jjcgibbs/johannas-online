@@ -34,18 +34,25 @@ body {
     }
 }
 
-#about {
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#about-me {
     height: max-content;
-    width: 30%;
+    width: 40%;
     padding: 10px;
     background-color: red;
     position: fixed;
     bottom: 20px;
     right: 20px;
     @media (max-width: 890px) {
-        width: 80%;
+        width: 90%;
+        right: 0px;
+        left: 10px;
     }
 }
+
 
 button {
     border: none;
@@ -133,7 +140,6 @@ iframe {
     padding-top: 40px;
     
     @media (max-width: 890px) {
-        height: !important;
         padding-top: 10px;
     }
 }
@@ -160,6 +166,7 @@ p {
     top: 20px;
 }
 
+#about-me,
 #2008-1,
 #cws-1,
 #cmyk-1,
