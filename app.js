@@ -1,4 +1,5 @@
 const aboutMe = document.getElementById("about-me");
+const sw = document.getElementById("sw-1");
 const ohEight = document.getElementById("2008-1");
 const cws = document.getElementById("cws-1");
 const cmyk = document.getElementById("cmyk-1");
@@ -34,8 +35,32 @@ function aboutFunction() {
     abaab.style.display = "none";
     sans.style.display = "none";
     trisha.style.display = "none";
+    sw.style.display = "none";
   } else {
     aboutMe.style.display = "none";
+  }
+}
+
+function contentswFunction() {
+  if (sw.style.display === "none") {
+    sw.style.display = "block";
+    cws.style.display = "none";
+    cmyk.style.display = "none";
+    redact.style.display = "none";
+    tsar.style.display = "none";
+    glory.style.display = "none";
+    carPrint.style.display = "none";
+    yana.style.display = "none";
+    sos.style.display = "none";
+    script.style.display = "none";
+    strelka.style.display = "none";
+    ddg.style.display = "none";
+    abaab.style.display = "none";
+    sans.style.display = "none";
+    trisha.style.display = "none";
+    aboutMe.style.display = "none";
+  } else {
+    sw.style.display = "none";
   }
 }
 
@@ -57,6 +82,7 @@ function content2008Function() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     ohEight.style.display = "none";
   }
@@ -80,6 +106,7 @@ function contentcwsFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     cws.style.display = "none";
   }
@@ -103,6 +130,7 @@ function contentcmykFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     cmyk.style.display = "none";
   }
@@ -126,6 +154,7 @@ function contentredactFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     redact.style.display = "none";
   }
@@ -149,6 +178,7 @@ function contentgloryFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     glory.style.display = "none";
   }
@@ -172,6 +202,7 @@ function contentgloryFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     glory.style.display = "none";
   }
@@ -197,6 +228,7 @@ function contentcarFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     carPrint.style.display = "none";
   }
@@ -220,6 +252,7 @@ function contentyanaFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     yana.style.display = "none";
   }
@@ -243,6 +276,7 @@ function contenttsarFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     tsar.style.display = "none";
   }
@@ -266,6 +300,7 @@ function contentsosFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     sos.style.display = "none";
   }
@@ -289,6 +324,7 @@ function contentscriptFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     script.style.display = "none";
   }
@@ -312,6 +348,7 @@ function contentstrelkaFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     strelka.style.display = "none";
   }
@@ -335,6 +372,7 @@ function contentddgFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     ddg.style.display = "none";
   }
@@ -358,6 +396,7 @@ function contentabaabFunction() {
     sans.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     abaab.style.display = "none";
   }
@@ -381,6 +420,7 @@ function contentindexFunction() {
     yana.style.display = "none";
     trisha.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     sans.style.display = "none";
   }
@@ -404,6 +444,7 @@ function contenttrishaFunction() {
     ohEight.style.display = "none";
     yana.style.display = "none";
     aboutMe.style.display = "none";
+    sw.style.display = "none";
   } else {
     trisha.style.display = "none";
   }
