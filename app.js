@@ -8,7 +8,7 @@ const glory = document.getElementById("glory-1");
 const tsar = document.getElementById("tsar-1");
 const carPrint = document.getElementById("carprint-1");
 const yana = document.getElementById("yana-1");
-const sos = document.getElementById("sos-1");
+// const sos = document.getElementById("sos-1");
 const script = document.getElementById("script-1");
 const strelka = document.getElementById("strelka-1");
 const ddg = document.getElementById("ddg-1");
@@ -282,29 +282,29 @@ function contenttsarFunction() {
   }
 }
 
-function contentsosFunction() {
-  if (sos.style.display === "none") {
-    sos.style.display = "block";
-    tsar.style.display = "none";
-    carPrint.style.display = "none";
-    glory.style.display = "none";
-    redact.style.display = "none";
-    cmyk.style.display = "none";
-    cws.style.display = "none";
-    ohEight.style.display = "none";
-    yana.style.display = "none";
-    script.style.display = "none";
-    strelka.style.display = "none";
-    ddg.style.display = "none";
-    abaab.style.display = "none";
-    sans.style.display = "none";
-    trisha.style.display = "none";
-    aboutMe.style.display = "none";
-    sw.style.display = "none";
-  } else {
-    sos.style.display = "none";
-  }
-}
+// function contentsosFunction() {
+//   if (sos.style.display === "none") {
+//     sos.style.display = "block";
+//     tsar.style.display = "none";
+//     carPrint.style.display = "none";
+//     glory.style.display = "none";
+//     redact.style.display = "none";
+//     cmyk.style.display = "none";
+//     cws.style.display = "none";
+//     ohEight.style.display = "none";
+//     yana.style.display = "none";
+//     script.style.display = "none";
+//     strelka.style.display = "none";
+//     ddg.style.display = "none";
+//     abaab.style.display = "none";
+//     sans.style.display = "none";
+//     trisha.style.display = "none";
+//     aboutMe.style.display = "none";
+//     sw.style.display = "none";
+//   } else {
+//     sos.style.display = "none";
+//   }
+// }
 
 function contentscriptFunction() {
   if (script.style.display === "none") {
